@@ -1,0 +1,53 @@
+Assignment Description:
+The assignment is to implement a Logistic Regression classifier from scratch using only NumPy, Pandas, and Matplotlib. The primary goal is to create a model for MediAI to predict the probability of a breast tumor being Malignant based on biopsy data. This involves manual implementation of data preprocessing, the core mathematics (Sigmoid, Cost, Gradient Descent), training, and the calculation of key evaluation metrics like Accuracy, Precision, and Recall.
+Assignment Objectives:
+				      Topic: Supervised learning (classification)
+•  Constraint: The model must be implemented using only NumPy, Pandas, and Matplotlib. Scikit-Learn is explicitly disallowed for model building or splitting.
+•  Implementation Focus: Key tasks include manual data preprocessing (handling missing values, feature scaling) and implementing the core mathematics (Sigmoid, Cost function, Gradient Descent).
+•  Evaluation: Students must manually implement a train-test split and calculate crucial metrics like Accuracy, Precision, and Recall.
+•  Context: The model is being developed for MediAI, a healthcare startup, to assist doctors in diagnosing breast cancer biopsies.
+Assignment Guidelines:
+
+1. Project Scenario & Objective
+MediAI, a healthcare technology startup, is developing a tool to assist doctors in diagnosing breast cancer biopsies more quickly.
+When a biopsy is taken, the cells are imaged and analyzed. Doctors look at features like the size, shape, and texture of the cell nuclei to determine if the tumor is dangerous.
+The lab has historical data from Wisconsin where doctors verified the diagnosis of tumors based on these measurements. They want a machine learning model to flag suspicious cases automatically.
+As a Data Scientist, your goal is to build a Logistic Regression classifier (from scratch) that predicts the probability of a tumor being Malignant.
+STRICT CONSTRAINT: You must implement the logic using only NumPy, Pandas, and Matplotlib. NO Scikit-Learn allowed for model building or splitting.
+
+2. Implementation Roadmap & Requirements
+
+Part A: Data Exploration & Preprocessing (6 Marks)
+•	Data Loading (1 Mark): Load the Breast Cancer dataset. Handle any necessary header adjustments.
+•	Data Cleaning (2 Marks): Check for missing values and handle them appropriately. Drop any ID columns.
+•	Feature Scaling (2 Marks): Implement Min-Max Normalization or Standardization manually. Scaling is critical for Gradient Descent convergence.
+•	EDA (Bonus/Optional): Visualize feature correlations or class balance (Malignant vs. Benign).
+
+Part B: The Mathematics of Logistic Regression (12 Marks)
+•	The Sigmoid Function (2 Marks): Implement the helper function sigmoid(z).
+•	The Hypothesis Function (1 Mark): Define the prediction function using matrix operations.
+•	Cost Function (3 Marks): Implement Binary Cross Entropy to measure error.
+•	Gradient Descent Derivations (4 Marks): Provide both the written derivative (in Markdown/LaTeX) and the Python implementation of gradients.
+•	Learning Curve (2 Marks): Plot Cost vs. Iterations to prove convergence.
+
+Part C: Model Training & Evaluation (9 Marks)
+•	Manual Train-Test Split (2 Marks): Implement a function to shuffle and split data (e.g., 80/20) using NumPy slicing (No sklearn).
+•	Training the Model (3 Marks): Run Gradient Descent on the Training Set to find optimal weights.
+•	Predictions (1 Mark): Apply learned weights to the Test Set using a threshold (default 0.5).
+•	Evaluation Metrics (3 Marks): Calculate Accuracy, Precision, and Recall manually. Discuss why Recall is crucial for cancer detection.
+
+Part D: Business & Healthcare Insights (3 Marks)
+•	Feature Importance (1 Mark): Analyze learned weights. Which tumor characteristics drive the prediction?
+•	Model Interpretation (2 Marks): Explain in plain English what the model predicts and its confidence levels.
+
+Deliverables:  
+•	Submit a jupyter notebook file implementing the entire project.
+Evaluation Criteria:  
+- Depth of analysis and accuracy of information.
+- Quality and clarity of insights and preventive measures proposed
+Plagiarism Policy:  
+-	Ensure all submissions are original.
+-	Cite all sources used for research.  
+
+
+	
