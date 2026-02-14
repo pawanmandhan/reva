@@ -7,3 +7,7 @@ https://nlpfy.com/2018/03/18/lasso-ridge-and-elastic-net-regularization/
 https://nlpfy.com/2017/11/14/principal-component-analysis-pca-using-scikit/
 
 
+
+in linear regression using pcacan we see lower mse
+
+
