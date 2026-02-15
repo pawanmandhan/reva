@@ -1,4 +1,4 @@
-This video is a machine learning lecture focused on **Ensemble Learning**, specifically covering concepts like bias, variance, underfitting, overfitting, and the Random Forest algorithm.
+
 
 ### **1. Core Machine Learning Concepts**
 
